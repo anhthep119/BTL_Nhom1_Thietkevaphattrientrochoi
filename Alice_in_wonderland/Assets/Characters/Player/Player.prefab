@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 643163535529506235}
   - component: {fileID: 4826525781820130625}
   - component: {fileID: 8435778733686206193}
+  - component: {fileID: 3757685290166906932}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -128,8 +129,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 5
+  runSpeed: 8
   _isMoving: 0
   _isRunning: 0
+  _isFacingRight: 1
 --- !u!114 &4826525781820130625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261,3 +264,38 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!70 &3757685290166906932
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2639326238084486538}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0049039423, y: -0.22558224}
+  m_Size: {x: 0.72205764, y: 1.6930425}
+  m_Direction: 0
