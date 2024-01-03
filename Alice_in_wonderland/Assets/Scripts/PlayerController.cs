@@ -4,27 +4,41 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirections))]
 
 public class PlayerController : MonoBehaviour
 {
     public float walkSpeed = 5f;
     public float runSpeed = 8f;
+    public float airWalkSpeed = 3f;
+    private float jumpImpulse = 10f;
 
     Vector2 moveInput;
+    TouchingDirections touchingDirections;
 
     public float CurrentMoveSpeed { get 
         { 
-            if(IsMoving)
+            
+            if(IsMoving && !touchingDirections.IsOnWall)
             {
-                if(IsRunning)
+                if (touchingDirections.IsGrounded)
                 {
-                    return runSpeed;
-                }else 
-                { 
-                    return walkSpeed; 
+                    if (IsRunning)
+                    {
+                        return runSpeed;
+                    }
+                    else
+                    {
+                        return walkSpeed;
+                    }
                 }
-            } else
+                else
+                {
+                    //air 
+                    return airWalkSpeed;
+                }
+            }
+                else
             {
                 return 0; //toc do dung im = 0 
             }
@@ -70,11 +84,13 @@ public class PlayerController : MonoBehaviour
 
     Rigidbody2D rb;
     Animator animator;
+    
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        touchingDirections = GetComponent<TouchingDirections>();
 
     }
 
@@ -92,6 +108,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(moveInput.x * CurrentMoveSpeed  , rb.velocity.y);
+        animator.SetFloat(AnimationStrings.yVelocity, rb.velocity.y);
     }
     public void onMove(InputAction.CallbackContext context)
     {
@@ -124,6 +141,15 @@ public class PlayerController : MonoBehaviour
         }else if(context.canceled)
         {
             IsRunning= false;
+        }
+    }
+    public void onJump(InputAction.CallbackContext context)
+    {
+        //check neu con song
+        if (context.started && touchingDirections.IsGrounded)
+        {
+            animator.SetTrigger(AnimationStrings.jump);
+            rb.velocity = new Vector2(rb.velocity.x, jumpImpulse);
         }
     }
 }
