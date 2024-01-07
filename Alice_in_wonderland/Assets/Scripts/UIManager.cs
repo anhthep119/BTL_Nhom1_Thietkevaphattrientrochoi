@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class UIManager : MonoBehaviour
 {
@@ -43,5 +44,12 @@ public class UIManager : MonoBehaviour
         TMP_Text tmptext = Instantiate(healthTextPrefab, spawnPosition, Quaternion.identity, gameCanvas.transform).GetComponent<TMP_Text>();
 
         tmptext.text = healthRestored.ToString();
+    }
+    public void OnExit(InputAction.CallbackContext context)
+    {
+        if(context.started)
+        {
+
+        }
     }
 }

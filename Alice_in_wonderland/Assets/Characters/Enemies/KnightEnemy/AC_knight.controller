@@ -1,5 +1,23 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9198639809309417151
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da6d2cd4d02a91041bbb7804bb9a14b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: 751f6c1b0dae714479d2d77917b31809, type: 3}
+  volume: 1
+  playOnEnter: 1
+  playOnExit: 0
+  playAfterDelay: 0
+  playDelay: 0.25
 --- !u!1107 &-7230381173607595288
 AnimatorStateMachine:
   serializedVersion: 6
@@ -46,6 +64,24 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 830, y: 110, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 5593852472864646137}
+--- !u!114 &-4696561795851970274
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da6d2cd4d02a91041bbb7804bb9a14b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: f6bc3a3b5ea1e694499a87a6050ea6f7, type: 3}
+  volume: 1
+  playOnEnter: 1
+  playOnExit: 0
+  playAfterDelay: 0
+  playDelay: 0.25
 --- !u!114 &-2494884547163485026
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -211,6 +247,7 @@ AnimatorState:
   - {fileID: 3200565997072999012}
   m_StateMachineBehaviours:
   - {fileID: -535989112148805019}
+  - {fileID: -9198639809309417151}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -240,6 +277,7 @@ AnimatorState:
   m_StateMachineBehaviours:
   - {fileID: -2494884547163485026}
   - {fileID: 119383562482506277}
+  - {fileID: -4696561795851970274}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -369,6 +407,7 @@ AnimatorState:
   m_StateMachineBehaviours:
   - {fileID: 8851072517313455977}
   - {fileID: 5792205017506156616}
+  - {fileID: 7127896642463238249}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -477,6 +516,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeTime: 0.5
+  fadeDelay: 0
 --- !u!1102 &6149994792899156267
 AnimatorState:
   serializedVersion: 6
@@ -542,6 +582,24 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 360, y: 20, z: 0}
   m_DefaultState: {fileID: 5593852472864646137}
+--- !u!114 &7127896642463238249
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da6d2cd4d02a91041bbb7804bb9a14b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: ea818cd22ecf72c4e94576dca67b6c62, type: 3}
+  volume: 1
+  playOnEnter: 1
+  playOnExit: 0
+  playAfterDelay: 0
+  playDelay: 0.25
 --- !u!1109 &7508174798908929037
 AnimatorTransition:
   m_ObjectHideFlags: 1
