@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Map1_InsideCave.unity
     guid: 499a695a5d7ae764796766dac8da22df
   - enabled: 1
-    path: Assets/Scenes/GameplaySence.unity
+    path: Assets/Scenes/Map1_outside.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Map1_InsideCastle.unity
+    guid: 3d7dac5225f93ba4fa4fd0cfe636e176
   m_configObjects: {}
