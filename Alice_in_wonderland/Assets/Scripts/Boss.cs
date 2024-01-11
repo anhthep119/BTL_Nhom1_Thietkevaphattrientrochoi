@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 [RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirections), typeof(Damageable))]
 public class Boss : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class Boss : MonoBehaviour
 
     private WalkableDirections _walkDirection;
     private Vector2 walkDirectionVector = Vector2.right;
+    
 
     public WalkableDirections WalkDirection
     {
@@ -88,6 +90,7 @@ public class Boss : MonoBehaviour
         {
             AttackCooldown -= Time.deltaTime;
         }
+        
 
     }
     private void FixedUpdate()

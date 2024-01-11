@@ -6670,6 +6670,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 341084480648634755, guid: a6bbff79931759f4f911ecb54e147b3f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1912901135706277886, guid: a6bbff79931759f4f911ecb54e147b3f, type: 3}
       propertyPath: m_Colors.m_NormalColor.a
       value: 1
@@ -6711,6 +6715,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2950804392064809042, guid: a6bbff79931759f4f911ecb54e147b3f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4449568538347646917, guid: a6bbff79931759f4f911ecb54e147b3f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5458315044447783717, guid: a6bbff79931759f4f911ecb54e147b3f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5458315044447783717, guid: a6bbff79931759f4f911ecb54e147b3f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
@@ -6810,10 +6826,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameCanvas
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7864438080782861634, guid: a6bbff79931759f4f911ecb54e147b3f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7883895021707656286, guid: a6bbff79931759f4f911ecb54e147b3f, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 5182273080025543611, guid: c871abab3f3c4804abe2790ac971b565, type: 2}
+    - target: {fileID: 7883895021707656286, guid: a6bbff79931759f4f911ecb54e147b3f, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7147320077268620687, guid: a6bbff79931759f4f911ecb54e147b3f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4997113170592098741, guid: a6bbff79931759f4f911ecb54e147b3f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1453974983}
   m_SourcePrefab: {fileID: 100100000, guid: a6bbff79931759f4f911ecb54e147b3f, type: 3}
 --- !u!1 &288300452
 GameObject:
@@ -22139,6 +22171,35 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1453974980 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4997113170592098741, guid: a6bbff79931759f4f911ecb54e147b3f, type: 3}
+  m_PrefabInstance: {fileID: 240588847}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1453974982 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 60072111458842154, guid: a6bbff79931759f4f911ecb54e147b3f, type: 3}
+  m_PrefabInstance: {fileID: 240588847}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453974980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1453974983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453974980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1abd483197618e46b4575f4cb8360cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthSlider: {fileID: 1453974982}
 --- !u!1001 &1512707545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26732,6 +26793,10 @@ PrefabInstance:
     - target: {fileID: 4497967293556359385, guid: 3458afbbf310a3c45bd5988088e91f9c, type: 3}
       propertyPath: m_Name
       value: KingBoss_enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4497967293556359385, guid: 3458afbbf310a3c45bd5988088e91f9c, type: 3}
+      propertyPath: m_TagString
+      value: Boss
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
