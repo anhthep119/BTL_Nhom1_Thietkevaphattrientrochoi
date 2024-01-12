@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D),typeof(TouchingDirections), typeof(Damageable))]
@@ -77,6 +78,7 @@ public class Knight : MonoBehaviour
         if(AttackCooldown > 0)
         {
             AttackCooldown -= Time.deltaTime;
+            Debug.Log(AttackCooldown);
         }
         
     }

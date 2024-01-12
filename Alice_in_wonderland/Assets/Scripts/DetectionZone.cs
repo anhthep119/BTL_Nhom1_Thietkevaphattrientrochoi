@@ -17,6 +17,8 @@ public class DetectionZone : MonoBehaviour
     {
         detectedColliders.Add(collision);
     }
+
+   
     private void OnTriggerExit2D(Collider2D collision)
     {
         detectedColliders.Remove(collision);
