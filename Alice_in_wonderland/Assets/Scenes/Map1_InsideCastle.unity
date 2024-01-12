@@ -198,7 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1edcb2eb2754dd4ead83d34f09c5c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 2
+  sceneBuildIndex: 4
 --- !u!4 &44028962
 Transform:
   m_ObjectHideFlags: 0
@@ -32294,6 +32294,12 @@ PrefabInstance:
     - target: {fileID: 1720558123943506631, guid: 5dbafa41148285749933ddf4f11aa301, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3537070060214966062, guid: 5dbafa41148285749933ddf4f11aa301, type: 3}
+      propertyPath: m_text
+      value: 'Boss: The Forgotten Emperor
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 4135073549865781996, guid: 5dbafa41148285749933ddf4f11aa301, type: 3}
       propertyPath: m_Name
