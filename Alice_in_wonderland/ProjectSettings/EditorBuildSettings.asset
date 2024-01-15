@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Map1_InsideCastle.unity
     guid: 3d7dac5225f93ba4fa4fd0cfe636e176
+  - enabled: 1
+    path: Assets/Scenes/Map2_mapmci.unity
+    guid: faaa182d55fb40a4aa36c71f6e609d85
+  - enabled: 1
+    path: Assets/Scenes/Map3_InsideCaveHoleTrap.unity
+    guid: 0bccbf813e888e047a6c0a37194b3fa6
+  - enabled: 1
+    path: Assets/Scenes/Map4_mapducanh.unity
+    guid: 60f1041ab4788d44aa7d574fe671016d
   m_configObjects: {}
