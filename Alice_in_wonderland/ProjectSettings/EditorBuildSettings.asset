@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Map4_mapducanh.unity
     guid: 60f1041ab4788d44aa7d574fe671016d
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 513d64beb51dcc34aa9878f891416725
   m_configObjects: {}

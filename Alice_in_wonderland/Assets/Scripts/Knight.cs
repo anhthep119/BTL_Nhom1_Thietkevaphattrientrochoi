@@ -78,7 +78,7 @@ public class Knight : MonoBehaviour
         if(AttackCooldown > 0)
         {
             AttackCooldown -= Time.deltaTime;
-            Debug.Log(AttackCooldown);
+            
         }
         
     }
