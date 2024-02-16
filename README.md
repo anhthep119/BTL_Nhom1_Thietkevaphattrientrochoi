@@ -18,31 +18,17 @@ Phong cách, yếu tố phiêu lưu, hành động, rùng rợn kết hợp vớ
 Đồ họa 2D ưu nhìn, pha trộn yếu tố kinh dị của quái vật.
 Chủ đề
 Game phiêu lưu, đi màn, giết quái vật, đánh boss , kinh dị.
-
 Game flow
-
 Tại menu người chơi sẽ chọn các mục tương ứng:
-
 Play game: Vào các màn chơi
-
 Setting: Cài đặt game
-
 Info: Thông tin nhóm làm game
-
 Quit: Thoát khỏi game
-
 Người chơi sẽ trải nghiệm thế giới cốt truyện lạ kỳ qua từng màn. 
-
 Trong game người chơi sử dụng các phím:
-
 Phím A,S để di chuyển nhân vật.
-
 Phím W để nhảy lên
-
 Phím W và phím J để chém trên không
-
 Phím J kể sử dụng kiếm chém, nhấn liên tục phím J có thể tạo combo 
-
 Phím K để bắn cung tên
-
 Nút Pause trên màn hình để vào menu Pause
