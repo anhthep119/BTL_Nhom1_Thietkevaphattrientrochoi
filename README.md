@@ -1,14 +1,6 @@
-PHẦN 1 : GIỚI THIỆU
-
-1.High Concept
-
 “Kể về một cậu bé tên Alice và cuộc phiêu lưu tại thế giới kỳ lạ trong giấc mơ, cậu phải tiêu diệt quái vật để có thể trở về thế giới thực.”
 
-ảnh minh họa của game
-
-
-
-PHẦN 2: TỔNG QUAN VỀ GAME
+ TỔNG QUAN VỀ GAME
 
 Thể loại game
 Game nhập vai phiêu lưu hành động
@@ -26,13 +18,6 @@ Phong cách, yếu tố phiêu lưu, hành động, rùng rợn kết hợp vớ
 Đồ họa 2D ưu nhìn, pha trộn yếu tố kinh dị của quái vật.
 Chủ đề
 Game phiêu lưu, đi màn, giết quái vật, đánh boss , kinh dị.
-
-Phong cách
-Phong cách hành động, tăm tối, kinh dị với những con quái vật khó nhằn.
-
-Loại người chơi game được nhắm đến
-Những người chơi được nhắm đến là những người trên 13 tuổi. Có hứng thú với cảm giác được nhập vai vào chuyến phiêu lưu của Alice tại một thế giới lạ lùng, ma mị cùng với những con quái vật ghê rợn để trải nghiệm những cảm xúc lạ khó có thể xuất hiện ngoài đời thực.
-
 Game flow
 Tại menu người chơi sẽ chọn các mục tương ứng:
 Play game: Vào các màn chơi
@@ -47,7 +32,3 @@ Phím W và phím J để chém trên không
 Phím J kể sử dụng kiếm chém, nhấn liên tục phím J có thể tạo combo 
 Phím K để bắn cung tên
 Nút Pause trên màn hình để vào menu Pause
-
-Bối cảnh trong game là một thế giới kỳ lạ, nơi mọi thế giới giao thoa vào nhau, nơi đây ngày đêm lẫn lộn, các thực vật kỳ lạ không theo một quy luật nào cả, mọi nơi đều có lũ quái vật hoặc các kỵ sĩ đi tuần,  ngăn cản cũng như làm người chơi không thể thoát ra bên ngoài. 
-Phong cách phiêu lưu hành động cả về hình ảnh lẫn âm thanh. Tạo sự phấn khích trong game, khiến kích thích sự tò mò của người chơi, kích thích sự ham khám phá, nhập vai đi đến cuối game.
- m thanh nền tạo cảm giác phấn khích.  m thanh phát ra từ các con quái vật, cộng thêm tiếng kiếm chém, tiếng bắn cung càng tăng sự kích thích cho người chơi.
